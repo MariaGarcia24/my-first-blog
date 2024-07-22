@@ -1,24 +1,120 @@
 {% load static %}
-<html>
-    <head>
-        <title>CarnitasReu</title>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-        <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    </head>
-    <body>
-        <div class="page-header">
-            <h1><a href="/">CarnitasReu</a></h1>
-            <img src="..." class="https://www.freepik.es/foto-gratis/primer-disparo-flor-morada_11818270.htm#query=flor&position=0&from_view=keyword&track=sph&uuid=d9c0199e-b676-45a6-b1f2-d584b4d6b185" alt="...">
-        </div>
-        <div class="content container">
-            <div class="row">
-                <div class="col-md-8">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarnitasReu</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+</head>
+<body>
+    <div class="page-header">
+        <h1><a href="/">CarnitasReu</a></h1>
+    </div>
+    <div class="content container">
+        <div class="row">
+            <div class="col-md-8">
                 {% block content %}
-                {% endblock %}
+                <div class="container">
+                    <div class="row">
+                        <!-- Product Cards -->
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://lh6.googleusercontent.com/proxy/PDNQNHJu4splB9mrU9S24XYKC3aaM-PmGdXXnbX2IS54vrmRK-H4Ms6jvtgWen9GvoqUHw85pp5RGIWAfOMf38cQnK9TjrvesgQbIMnnsXkmH7s0_oTxouqCOTBisUhumGjIqSfM-LFjXQ" class="card-img-top" alt="Carne de Res">
+                                <div class="card-body">
+                                    <h5 class="card-title">Carne de Res</h5>
+                                    <p class="card-text">$10.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/pollo.jpg' %}" class="card-img-top" alt="Pollo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pollo</h5>
+                                    <p class="card-text">$7.25</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/cerdo.jpg' %}" class="card-img-top" alt="Cerdo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cerdo</h5>
+                                    <p class="card-text">$9.30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/coca_cola.jpg' %}" class="card-img-top" alt="Coca-Cola">
+                                <div class="card-body">
+                                    <h5 class="card-title">Coca-Cola</h5>
+                                    <p class="card-text">$1.50</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="https://www.soy502.com/sites/default/files/styles/mobile_full_node/public/2024/Abr/19/pepsi_pepsi_zero_logo_imagen_diseno_nueva_imagen_guatemala_soy502_1.jpg" class="card-img-top" alt="Pepsi">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pepsi</h5>
+                                    <p class="card-text">$1.40</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/fanta.jpg' %}" class="card-img-top" alt="Fanta">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fanta</h5>
+                                    <p class="card-text">$1.30</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/cordero.jpg' %}" class="card-img-top" alt="Cordero">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cordero</h5>
+                                    <p class="card-text">$15.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/pavo.jpg' %}" class="card-img-top" alt="Pavo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pavo</h5>
+                                    <p class="card-text">$12.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/agua.jpg' %}" class="card-img-top" alt="Agua">
+                                <div class="card-body">
+                                    <h5 class="card-title">Agua</h5>
+                                    <p class="card-text">$1.00</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mb-4">
+                                <img src="{% static 'images/jugo_de_naranja.jpg' %}" class="card-img-top" alt="Jugo de Naranja">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jugo de Naranja</h5>
+                                    <p class="card-text">$2.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                {% endblock %}
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
